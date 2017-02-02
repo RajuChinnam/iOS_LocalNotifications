@@ -61,10 +61,10 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
         let notificationContent = UNMutableNotificationContent()
 
         // Configure Notification Content
-        notificationContent.title =  "HP Inc"
-        notificationContent.subtitle = "Connect to Printer"
+        notificationContent.title =  "Title"
+        notificationContent.subtitle = "Sub Titile"
         //  notificationContent.badge =
-        notificationContent.body = "Hey! you are entering into HP Inc. You can conect to the available Printer"
+        notificationContent.body = "Hey Hi!"
 
         // Add Trigger
         let notificationTrigger = UNTimeIntervalNotificationTrigger(timeInterval: 2.0, repeats: false)
